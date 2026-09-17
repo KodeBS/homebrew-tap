@@ -1,6 +1,6 @@
 cask "kodebs-homelab" do
-  version "0.1.4"
-  sha256 "80125d73dc9a60c27483d78cfa9d0f2d9a664570e87eb28ee3a679335adf6462"
+  version "0.1.5"
+  sha256 "2c2d3d0c0c4ff8be994520e4b0157924dff265b2ab5154856b1cc9fc6f537c60"
 
   url "https://github.com/KodeBS/homebrew-tap/releases/download/v#{version}/KodeBS-Homelab-#{version}-arm64.dmg"
   name "KodeBS Homelab"
@@ -18,6 +18,7 @@ cask "kodebs-homelab" do
   end
 
   zap trash: [
+    "~/Library/Application Support/KodeBS_Homelab",
     "~/Library/Application Support/KodeBS Homelab",
     "~/Library/LaunchAgents/com.kodebs.homelab.plist",
   ]
