@@ -1,6 +1,6 @@
 cask "kodebs-homelab" do
-  version "0.1.7"
-  sha256 "8d8c98ddefacd3407c7c75f983a634f203706560e704bce4b9809acab9a53c58"
+  version "0.1.8"
+  sha256 "774cb8b262c27b6a318f27f590a1134bb5343c799cb66da9b61ff1c1273b3938"
 
   url "https://github.com/KodeBS/homebrew-tap/releases/download/v#{version}/KodeBS-Homelab-#{version}-arm64.dmg"
   name "KodeBS Homelab"
